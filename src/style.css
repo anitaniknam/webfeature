@@ -23,9 +23,22 @@ h3 {
 p {
   font-family: "Karla", sans-serif;
   font-weight: 300;
+  line-height: 1.7rem;
 }
 
 .quotes {
   font-family: "Reenie Beanie", cursive;
   font-size: xx-large;
+}
+
+/* skriftstørrelsen i lg: */
+@media (min-width: 1024px) {
+  p {
+    font-size: large;
+    line-height: 1.9rem;
+  }
+
+  h3 {
+    font-size: large;
+  }
 }
