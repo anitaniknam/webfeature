@@ -34,7 +34,7 @@
         <div>
           <div class="grid grid-cols-2 grid-rows-2">
             <h1
-              class="col-start-1 row-start-1 mb-8 text-left text-5xl text-featureOrange lg:text-8xl"
+              class="absolute col-start-1 row-start-1 mb-8 text-left text-5xl text-featureOrange lg:text-8xl"
             >
               Uperf<br />ekt
             </h1>
@@ -221,14 +221,21 @@
       </p>
     </div>
     <!-- Section En ny begyndelse -->
-    <div class="mb-8 lg:mb-36">
+    <div class="mb-8 lg:mb-36 lg:grid">
       <img
         src="img/section_pic_orange.png"
         alt="Foto af Pierre Falcke"
-        class=""
+        class="col-start-1 row-start-1"
       />
-      <h1 class="mb-4 text-featureOrange lg:text-8xl">En ny</h1>
-      <h1 class="mb-4 text-featureOrange lg:text-8xl">begyn<br />delse</h1>
+
+      <div class="col-start-1 row-start-1">
+        <h1 class="mb-4 text-left text-featureOrange lg:text-9xl">En ny</h1>
+        <h1 class="mb-4 text-left text-featureOrange lg:text-9xl">
+          begyn<br />delse
+        </h1>
+      </div>
+    </div>
+    <div class="mb-36 lg:grid lg:justify-center">
       <h3 class="mx-14 mb-2 text-featureBlue">Fremkaldt på Fatamorgana</h3>
       <p class="mx-14 lg:max-w-lg">
         Pierre er glad for sin beslutning. Indkomsten er lavere nu, men han har
@@ -263,23 +270,24 @@
         </div>
       </div>
 
-      <div class="m-10">
+      <div class="m-10 justify-end lg:grid">
         <video autoplay loop muted class="zoomeffekt max-w-sm rotate-90">
           <source src="img/Sequence 02.mp4" />
         </video>
         <img src="" alt="" />
       </div>
     </div>
+
     <!-- Section fotografisk odysse -->
-    <div class="mx-14 mb-14 lg:mb-56 lg:max-w-lg">
+    <div class="mx-14 mb-14 lg:mb-56 lg:grid lg:justify-center">
       <h3 class="mb-2 text-featureBlue">En fotografisk odyssé</h3>
-      <p class="mb-4">
+      <p class="mb-4 lg:max-w-lg">
         For Pierre er karrieren også så småt begyndt, at gå den rette vej:
         Pierre er begyndt at sælge fotokunst på nettet, og har udgivet sin
         første foto-bog med titlen “Lidt i fem” som er en fotografisk odyssé, om
         at slæbe en brandert hjem i de tidlige morgentimer.
       </p>
-      <p>
+      <p class="lg:max-w-lg">
         I forbindelse med udgivelsen af bogen, har han en udstilling på vej i
         det Kongelige Biblioteks fotoudstilling.
       </p>
@@ -298,12 +306,14 @@
       />
     </div>
     <!-- Afsluttende section quote -->
-    <div class="mx-14 mb-14 lg:m-64 lg:max-w-lg">
-      <p class="quotes mb-8 text-center text-featureOrange lg:text-5xl">
+    <div class="mx-14 mb-14 lg:m-64 lg:grid lg:justify-center">
+      <p
+        class="quotes mb-8 text-center text-featureOrange lg:max-w-lg lg:text-5xl"
+      >
         "Nu kan jeg leve livet igen. Jeg føler mig frisk. Jeg føler mig fri. Jeg
         føler mig genfødt"
       </p>
-      <p class="text-right">Pierre Falcke</p>
+      <p class="text-right lg:max-w-lg">Pierre Falcke</p>
     </div>
 
     <div
