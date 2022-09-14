@@ -27,8 +27,16 @@ const zoomeffekt = [
   [".zoomeffekt", { transform: "scale(1.5) rotate(90deg)" }, { duration: 0.5 }],
   [".zoomeffekt", { transform: "scale(1) rotate(90deg)" }, { duration: 1 }],
 ];
-// timeline(zoomeffekt);
 
 inView(".zoomeffekt", ({ target }) => {
   timeline(zoomeffekt);
+});
+
+const zoom = [
+  [".zoom", { transform: "scale(1)" }, { duration: 0.1 }],
+  [".zoom", { transform: "scale(1.3)" }, { duration: 5 }],
+];
+
+inView(".zoom", ({ target }) => {
+  timeline(zoom);
 });
