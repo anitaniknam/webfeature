@@ -16,16 +16,19 @@
   <body class="bg-featureWhite">
     <!-- HERO SECTION -->
     <header
-      class="relative mb-36 flex h-screen items-center justify-center overflow-hidden"
+      class="sticky mb-36 flex h-screen items-center justify-center overflow-hidden"
     >
       <video
         autoplay
         loop
         muted
+        playsinline
         class="absolute z-10 min-h-full w-auto min-w-full max-w-none"
+        id="videofil"
       >
         <source src="img/Sequence_2.mp4" />
       </video>
+      <!-- <div class="videoarticle h-screen"></div> -->
 
       <div class="relative z-10 m-14">
         <div>
@@ -302,6 +305,10 @@
       </p>
       <p class="text-right">Pierre Falcke</p>
     </div>
+
+    <div
+      class="progress-bar fixed left-0 top-0 right-0 h-4 w-full origin-top-left bg-featureOrange"
+    ></div>
 
     <script type="module" src="./main.js"></script>
   </body>
