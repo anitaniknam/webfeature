@@ -16,19 +16,50 @@
 
   <body class="bg-featureWhite">
     <!-- HERO SECTION -->
-    <div>
-      <div class="m-14">
-        <h1 class="mb-8 text-featureOrange lg:text-8xl text-left">Uperf<br>ekt</h1>
-        <h1 class="mb-8 text-featureOrange lg:text-8xl text-right">er<br> Perfekt</h1>
-        <h2 class="mb-8 text-white">Pierre sælger 2 millioner fotos om året</h2>
-        <h2 class="mb-8 text-white">
-          Det svarer til én fotolicens hvert 16. sekund
-        </h2>
-        <h2 class="mb-8 text-white">Du ser hans fotos ca. 2 gange om dagen</h2>
+    <header
+      class="relative mb-36 flex h-screen items-center justify-center overflow-hidden"
+    >
+      <video
+        autoplay
+        loop
+        muted
+        class="absolute z-10 min-h-full w-auto min-w-full max-w-none"
+      >
+        <source src="img/Sequence_2.mp4" />
+      </video>
+
+      <div class="relative z-10 m-14">
+        <div>
+          <div class="grid grid-cols-2 grid-rows-2 lg:m-64">
+            <h1
+              class="col-start-1 row-start-1 mb-8 text-left text-5xl text-featureOrange lg:text-8xl"
+            >
+              Uperf<br />ekt
+            </h1>
+
+            <div
+              class="col-start-2 row-start-2 mb-8 text-right text-featureOrange"
+            >
+              <h1 class="text-right text-5xl lg:text-8xl">er</h1>
+              <h1 class="text-right text-5xl lg:text-8xl">Perfekt</h1>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <h2 class="mb-8 text-white">
+              Pierre sælger 2 millioner fotos om året
+            </h2>
+            <h2 class="mb-8 text-white">
+              Det svarer til én fotolicens hvert 16. sekund
+            </h2>
+            <h2 class="mb-8 text-white">
+              Du ser hans fotos ca. 2 gange om dagen
+            </h2>
+          </div>
+        </div>
       </div>
-      <video src=""></video>
-    </div>
-<!-- Section før stock -->
+    </header>
+    <!-- Section før stock -->
     <div class="mx-14 lg:mx-36">
       <div class="lg:mb-32 lg:grid lg:grid-cols-2 lg:gap-x-28">
         <div class="mb-14 lg:col-start-2 lg:mb-0">
@@ -64,25 +95,32 @@
         </div>
 
         <div class="lg:col-start-2">
-          <p class="quotes mb-8 text-center text-featureBlue lg:text-5xl lg:max-w-xl">
+          <p
+            class="quotes mb-8 text-center text-featureBlue lg:max-w-xl lg:text-5xl"
+          >
             "Om ganske få år er hele branchen digital, og dem der ikke hopper
             med på den digitale vogn, lukker"
           </p>
         </div>
       </div>
-<!-- Section m. stockfotos -->
+      <!-- Section m. stockfotos -->
       <div>
         <div class="lg:mb-64 lg:grid lg:grid-cols-3 lg:gap-14">
           <img class="mb-4" src="img/sammenhold.webp" alt="" />
           <img class="mb-4" src="img/arbejde-1.webp" alt="" />
           <img class="mb-4" src="img/arbejde-2-1.webp" alt="" />
-          <!-- Streger ligges i baggrunden --><img src="img/blue_lines.svg" alt="Blå linjer grafisk element" />
-          <p class="lg:text-left lg:text-xs">Eksempler på Pierres arbejde, da han producerede stockfotos</p>
+          <!-- Streger ligges i baggrunden --><img
+            src="img/blue_lines.svg"
+            alt="Blå linjer grafisk element"
+          />
+          <p class="lg:text-left lg:text-xs">
+            Eksempler på Pierres arbejde, da han producerede stockfotos
+          </p>
         </div>
-<!-- Section ved første faktaboks -->
+        <!-- Section ved første faktaboks -->
         <div class="lg:mb-60 lg:grid lg:grid-cols-2 lg:gap-28">
           <div>
-            <div class="mb-6 lg:pt-8 lg:max-w-lg">
+            <div class="mb-6 lg:max-w-lg lg:pt-8">
               <h3 class="mb-2 text-featureBlue">Holdt profetien?</h3>
               <p>
                 Pierre lejede et gammelt, billigt erhvervslokale i Ishøj
@@ -96,8 +134,8 @@
               </p>
             </div>
           </div>
-<!-- Første faktaboks -->
-          <div class="mb-14 bg-featureGrey p-6 lg:p-8 lg:max-w-md">
+          <!-- Første faktaboks -->
+          <div class="mb-14 bg-featureGrey p-6 lg:max-w-md lg:p-8">
             <p class="mb-4">
               <span class="font-bold">Stock-fotos</span> er billeder, der kan
               købes fra et foto-website. De bruges af aviser, til markedsføring
@@ -115,7 +153,7 @@
         </div>
       </div>
     </div>
-<!-- Section skillevej -->
+    <!-- Section skillevej -->
     <div
       class="mb-8 bg-featureGrey p-14 lg:mb-32 lg:grid lg:grid-cols-2 lg:gap-28 lg:p-60"
     >
@@ -130,7 +168,7 @@
         </p>
       </div>
 
-      <div class="lg:max-w-lg lg:mt-7">
+      <div class="lg:mt-7 lg:max-w-lg">
         <p class="mb-4 lg:mb-8">
           Han søgte inspiration i analog fotografering, i Lomo-bevægelsen,
           Glitch art og polaroid fotografering, og begyndte stille og roligt at
@@ -144,22 +182,23 @@
         </p>
       </div>
     </div>
-<!-- Section m. roteret billede -->
+    <!-- Section m. roteret billede -->
     <div class="mx-14 gap-y-10 lg:mx-36 lg:grid lg:grid-cols-3 lg:grid-rows-2">
       <img class="mb-4 lg:mb-0" src="img/ilford-sort-hvid-film.webp" alt="" />
       <p
-        class="quotes mb-8 text-center text-featureOrange lg:col-span-2 lg:col-start-2 lg:row-start-2 lg:mb-0 lg:text-5xl lg:max-w-1xl"
+        class="quotes lg:max-w-1xl mb-8 text-center text-featureOrange lg:col-span-2 lg:col-start-2 lg:row-start-2 lg:mb-0 lg:text-5xl"
       >
         "Det interessante ligger i fejlen. Et foto med masser af fejl er
         interessant. Jeg eksperimenterer med udstyr og teknik, og skaber nye
         visuelle udtryk. Det uperfekte er perfekt."
       </p>
     </div>
-<!-- Section En ny begyndelse -->
+    <!-- Section En ny begyndelse -->
     <div class="mb-8 lg:mb-36">
       <img src="img/section_pic_orange.png" alt="Foto af Pierre Falcke" />
-      <h1 class="mb-4 text-featureOrange lg:text-8xl">En ny</h1><h1 class="mb-4 text-featureOrange lg:text-8xl">begyn<br>delse</h1>
-      <h3 class="mb-2 mx-14   text-featureBlue">Fremkaldt på Fatamorgana</h3>
+      <h1 class="mb-4 text-featureOrange lg:text-8xl">En ny</h1>
+      <h1 class="mb-4 text-featureOrange lg:text-8xl">begyn<br />delse</h1>
+      <h3 class="mx-14 mb-2 text-featureBlue">Fremkaldt på Fatamorgana</h3>
       <p class="mx-14 lg:max-w-lg">
         Pierre er glad for sin beslutning. Indkomsten er lavere nu, men han har
         stadig lidt penge på kontoen, og studerer nu kunstfotografering på
@@ -168,7 +207,7 @@
         arbejde.
       </p>
     </div>
-<!-- Section analog faktaboks -->
+    <!-- Section analog faktaboks -->
     <div class="mx-14 lg:mx-32 lg:mb-12">
       <div class="lg:grid lg:grid-cols-2">
         <div class="mb-14 bg-featureGrey p-6 lg:mb-0 lg:max-w-md">
@@ -197,7 +236,7 @@
         <img src="" alt="" />
       </div>
     </div>
-<!-- Section fotografisk odysse -->
+    <!-- Section fotografisk odysse -->
     <div class="mx-14 mb-14 lg:mb-56 lg:max-w-lg">
       <h3 class="mb-2 text-featureBlue">En fotografisk odyssé</h3>
       <p class="mb-4">
@@ -211,12 +250,12 @@
         det Kongelige Biblioteks fotoudstilling.
       </p>
     </div>
-<!-- Section to billeder m. grafiske elementer -->
+    <!-- Section to billeder m. grafiske elementer -->
     <div class="mb-14">
       <img src="img/pic_orange_lines.png" alt="Foto af Pierre Falcke" />
       <img src="img/pic_orange_line.png" alt="Foto af Pierre Falcke" />
     </div>
-<!-- Afsluttende section quote -->
+    <!-- Afsluttende section quote -->
     <div class="mx-14 mb-14 lg:m-64 lg:max-w-lg">
       <p class="quotes mb-8 text-center text-featureOrange lg:text-5xl">
         "Nu kan jeg leve livet igen. Jeg føler mig frisk. Jeg føler mig fri. Jeg
