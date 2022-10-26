@@ -6,10 +6,12 @@ module.exports = {
       colors: {
         featureGrey: "#E8E8E8",
         featureWhite: "#F6F4EF",
-        featureOrange: "#EF7504",
+        featureOrange: "#A21206",
         featureBlue: "#032CA6",
       },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
+
+// featureOrange: "#EF7504"
